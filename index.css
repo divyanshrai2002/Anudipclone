@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #d0e0f8ff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 15px 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #00b3b3;
+}
+
+.donate-btn {
+  background-color: #00b3b3;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.banner {
+  background: linear-gradient(to bottom right, #e0f7ff, #b3e0ff);
+  text-align: center;
+  padding: 80px 20px 100px;
+  color: #003366;
+}
+
+.top-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.logo-small {
+  height: 60px;
+}
+
+.conf-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+.host-text {
+  font-size: 14px;
+  color: #444;
+}
+
+.banner h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.date-location {
+  background-color: #ffd700;
+  color: #003366;
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.footer {
+  background-color: #f2f2f2;
+  padding: 40px 20px;
+  margin-top: 50px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between; 
+  gap: 20%;
+}
+.footer-column {
+  flex: 1 1 220px;
+}
+
+.footer-logo {
+  width: 120px;
+}
+
+.tagline {
+  margin: 10px 0;
+  font-style: italic;
+}
+
+.social-icons span {
+  font-size: 22px;
+  margin-right: 10px;
+  color: gray;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-column li {
+  margin-bottom: 5px;
+}
+
+.footer-column a {
+  color: #73b0e5ff;
+  text-decoration: none;
+}
+
+.Anudipfooter{
+    margin-left:8%;
+}
+
+.footerAdd{
+    margin-left:22%
+}
+
+.address{
+    margin-left:5%
+}
+.footerphoto{
+  margin-left:18%;
+}
