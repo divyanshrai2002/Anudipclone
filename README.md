@@ -1,1 +1,1 @@
-# Anudipclone
+This is a static clone of the **Anudip Foundation** website created using HTML and CSS. The project replicates the core design including the navigation bar, banner, and footer, aiming to practice modern web layout using Flexbox and responsive design techniques.
